@@ -1,0 +1,13 @@
+1. write a framing program according to the principle of "bitstuffing" (given in the lecture), 
+and verifying the correctness of the frame using the CRC method . The program is to read a certain source file 
+text file 'Z' containing any string composed of the characters '0' and '1' (simulating a bit stream)
+and write the properly formatted string to another text file 'W'. 
+The program should calculate and insert into the frame CRC check fields - formatted with
+ strings composed of the characters '0' and '1'. Write a program that implements the reverse procedure, 
+i.e. which reads the resultant file 'W' and for correct CRC data rewrites its content 
+so as to obtain a copy of the original source file 'Z'.
+
+2. Write a program (group of programs) to simulate the Ethernet method of accessing the transmission medium (CSMA/CD). 
+The common link is implemented using an array: the propagation of the signal is simulated using the propagation of the 
+values to neighboring cells. Realize the exercise so that the simulations can be easily tested 
+and that the results obtained are easy to interpret.
